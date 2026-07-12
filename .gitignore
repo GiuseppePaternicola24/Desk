@@ -1,3 +1,6 @@
+# Escludi le impostazioni dell'editor (VS Code)
+.vscode/
+
 # =============================================
 # IGNORE FILES SPECIFICI DI SVILUPPO
 # =============================================
