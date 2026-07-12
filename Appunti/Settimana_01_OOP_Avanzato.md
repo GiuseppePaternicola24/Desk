@@ -124,4 +124,4 @@ Ora tocca a te scrivere il codice nella cartella [week-01](file:///c:/Users/Ryze
 6. Scrivi una classe `Main` con il metodo `public static void main(String[] args)` per testare il funzionamento dei tre canali.
 
 > [!WARNING]
-> Ricorda di strutturare il codice in package sensati (es. `com.studio.notification`) e di compilare i file via terminale o tramite il tuo IDE preferito.
+> Ricorda di strutturare il codice in package sensati (es. `com.studio.notification`) e di compilare i file via terminale o tramite il tuo IDE preferito
