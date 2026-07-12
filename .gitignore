@@ -1,0 +1,12 @@
+# Escludi le impostazioni dell'editor (VS Code)
+.vscode/
+
+# Escludi le cartelle con i file Java compilati (creati con javac)
+**/bin/
+**/target/
+**/build/
+
+# Escludi file temporanei o log di sistema
+*.log
+.DS_Store
+Thumbs.db
