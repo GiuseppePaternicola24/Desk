@@ -1,12 +1,80 @@
-# Escludi le impostazioni dell'editor (VS Code)
-.vscode/
+# =============================================
+# IGNORE FILES SPECIFICI DI SVILUPPO
+# =============================================
 
-# Escludi le cartelle con i file Java compilati (creati con javac)
-**/bin/
-**/target/
-**/build/
+# Java / Build Tools
+*.class           # File compilati
+*.jar             # Archivi Java
+*.war             # Web application archives
+*.ear             # Enterprise archives
 
-# Escludi file temporanei o log di sistema
-*.log
-.DS_Store
-Thumbs.db
+# File di configurazione Maven
+**/target/        # Output di build di Maven
+**/pom.xml.tag    # Tag di versioning
+**/pom.xml.next   # Tag di versioning
+
+# File di configurazione Gradle
+**/build/         # Output di build di Gradle
+**/*.gradle.kts~  # File temporanei Gradle
+
+# Eclipse IDE
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/
+/nbbuild/
+/dist/
+
+# =============================================
+# IGNORE FILE SPECIFICI DI SISTEMA OPERATIVO
+# =============================================
+
+# macOS
+.DS_Store         # File di sistema macOS
+.AppleDouble/
+.LSAppleShare
+
+# Windows
+Thumbs.db         # Anteprime di miniature
+Desktop.ini       # Impostazioni cartella Windows
+
+# =============================================
+# IGNORE FILE DI LOG E CACHE
+# =============================================
+
+*.log             # File di log
+logs/
+*.tmp             # File temporanei
+cache/
+
+# =============================================
+# IGNORE FILE DI CONFIGURAZIONE E CREDENZIALI
+# =============================================
+
+.env              # Variabili d'ambiente (MOLTO IMPORTANTE!)
+.env.local        # Variabili d'ambiente locali
+.env.*.local      # Variabili d'ambiente specifiche del device
+.credentials/
+*.key             # Chiavi private
+*.pem             # Certificati SSL
+
+# =============================================
+# IGNORE OUTPUT DI COMPILAZIONE DI JAVA
+# =============================================
+
+# Directory standard di output per compilazione Java
+bin/
+out/
+target/
+build/
+
+# Qualsiasi file .class in qualsiasi sottodirectory
+**/*.class
