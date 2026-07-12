@@ -1,5 +1,6 @@
-# Escludi le impostazioni dell'editor (VS Code)
+# Escludi le impostazioni di vs code e degli agenti AI
 .vscode/
+.agents/
 
 # =============================================
 # IGNORE FILES SPECIFICI DI SVILUPPO
